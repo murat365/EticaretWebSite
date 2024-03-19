@@ -46,3 +46,24 @@ code {
       position: relative;
     left: 20px;
 }
+.card-title{
+    font-size:16px;
+    font-weight: 400;
+    color: #00ffff;
+    line-height: 1.35em;
+    height:34px;
+
+}
+.card-text {
+   ont-size: 12px;
+}
+.product-price{
+
+    color: #00ff21;
+    font-weight:700;
+}
+.description-container {
+    word-wrap: break-word; /* Uzun kelimeleri veya URL'leri parçala */
+    /* veya alternatif olarak:
+    word-break: break-all; */
+}

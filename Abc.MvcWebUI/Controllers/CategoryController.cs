@@ -10,6 +10,7 @@ using Abc.MvcWebUI.Entity;
 
 namespace Abc.MvcWebUI.Controllers
 {
+    [Authorize]
     public class CategoryController : Controller
     {
         private DataContext db = new DataContext();

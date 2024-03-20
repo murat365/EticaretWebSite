@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Abc.MvcWebUI.Entity;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -14,5 +15,7 @@ namespace Abc.MvcWebUI.Models
         public int Stock { get; set; }
         public string Image { get; set; }
         public int CategoryId { get; set; }
+
+       
     }
 }
